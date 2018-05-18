@@ -7,6 +7,10 @@ import javax.persistence.Id;
 @Entity
 public class Cliente{
 
+    public Cliente() {
+        votos= 0;
+    }
+
     @Id
     @GeneratedValue
     public Integer id;
@@ -16,5 +20,6 @@ public class Cliente{
     public String telefone;
     public String endereco;
     public String profissao;
+    public Integer votos;
 
 }
