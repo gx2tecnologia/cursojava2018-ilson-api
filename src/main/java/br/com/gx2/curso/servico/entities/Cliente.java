@@ -7,16 +7,6 @@ import javax.persistence.Id;
 @Entity
 public class Cliente{
 
-    public Cliente(String nome, Integer cpf, String rg, String telefone, String endereco, String profissao){
-        this.cpf = cpf;
-        this.endereco = endereco;
-        this.nome = nome;
-        this.profissao = profissao;
-        this.rg = rg;
-        this.telefone = telefone;
-        this.votos = 0;
-    }
-
     public Cliente() {
         votos= 0;
     }
