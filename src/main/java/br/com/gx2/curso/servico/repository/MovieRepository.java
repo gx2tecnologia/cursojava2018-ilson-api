@@ -4,6 +4,6 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import br.com.gx2.curso.servico.entities.Movie;
 
-public interface MovieRepository extends MongoRepository<Movie, Integer> {
+public interface MovieRepository extends MongoRepository<Movie, String> {
 
 }
