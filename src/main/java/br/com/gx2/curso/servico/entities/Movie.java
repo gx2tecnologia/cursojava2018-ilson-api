@@ -3,12 +3,8 @@ package br.com.gx2.curso.servico.entities;
 import java.util.List;
 
 import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
-// import org.springframework.data.mongodb.repository.MongoRepository;
-
-// @Entity
 public class Movie{
 
     public Movie(String title, String writer, Integer year, String franchise, String synopsis){
